@@ -5,11 +5,11 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center px-10 bg-black text-white overflow-hidden">
 
-      {/* Background Glow Orbs */}
+     
       <div className="absolute top-20 left-20 w-72 h-72 bg-purple-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
       <div className="absolute bottom-20 right-20 w-72 h-72 bg-blue-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
 
-      {/* Content */}
+     
       <div className="relative z-10 perspective-1000">
         <motion.div
           initial={{ rotateX: 20, opacity: 0, y: 80 }}

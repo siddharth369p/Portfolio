@@ -60,7 +60,7 @@ export default function GlobalPresence() {
               className="p-8 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl text-center transition duration-300"
               style={{ transformStyle: "preserve-3d" }}
             >
-              {/* Flag */}
+            
               <div className="text-6xl">
                 {flagMap[c.name] || "🌍"}
               </div>

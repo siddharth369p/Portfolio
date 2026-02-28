@@ -27,7 +27,7 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center px-10 bg-black text-white overflow-hidden">
-      {/* Animated Background Glow */}
+   
       <div className="absolute w-[500px] h-[500px] bg-purple-600 blur-[150px] opacity-20 rounded-full animate-pulse top-[-100px] left-[-100px]" />
       <div className="absolute w-[500px] h-[500px] bg-blue-600 blur-[150px] opacity-20 rounded-full animate-pulse bottom-[-100px] right-[-100px]" />
 
@@ -40,7 +40,7 @@ export default function Hero() {
         className="relative z-10 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-16 shadow-[0_40px_100px_rgba(0,0,0,0.7)] transform-style-preserve-3d"
         style={{ perspective: 2000 }}
       >
-        {/* Glowing Border Effect */}
+   
         <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 opacity-20 blur-xl -z-10"></div>
 
         <motion.h1
@@ -61,7 +61,7 @@ export default function Hero() {
           empowering students beyond borders.
         </p>
 
-        {/* Magnetic 3D Button */}
+       
         <motion.button
           whileHover={{
             scale: 1.1,

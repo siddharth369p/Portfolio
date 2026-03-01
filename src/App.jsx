@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* Home / CEO Portfolio */}
+      
         <Route path="/" element={<Home />} 
         
         

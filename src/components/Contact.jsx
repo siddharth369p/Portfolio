@@ -22,12 +22,10 @@ export default function Contact() {
   return (
     <section className="relative py-32 px-6 bg-black text-white overflow-hidden">
 
-      {/* Animated Gradient Background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(139,92,246,0.25),transparent_40%),radial-gradient(circle_at_80%_70%,rgba(59,130,246,0.25),transparent_40%)]"></div>
 
       <div className="relative z-10 max-w-5xl mx-auto text-center perspective-[1500px]">
 
-        {/* Heading */}
         <motion.h2
           initial={{ opacity: 0, y: 60 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -48,7 +46,7 @@ export default function Contact() {
           Let’s build global education pathways together.
         </motion.p>
 
-        {/* 3D Glass Card */}
+        
         <motion.div
           onMouseMove={handleMouseMove}
           onMouseLeave={resetRotation}
@@ -60,10 +58,9 @@ export default function Contact() {
           className="mt-16 relative p-[2px] rounded-3xl bg-gradient-to-r from-purple-600 via-blue-500 to-purple-600 shadow-[0_0_60px_rgba(139,92,246,0.4)]"
           style={{ transformStyle: "preserve-3d" }}
         >
-          {/* Inner Glass */}
+        
           <div className="p-12 rounded-3xl bg-white/5 backdrop-blur-2xl border border-white/10">
 
-            {/* Floating Effect */}
             <motion.div
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 4, repeat: Infinity }}

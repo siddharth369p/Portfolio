@@ -33,13 +33,12 @@ export default function Timeline() {
   return (
     <section className="relative py-32 px-6 bg-black text-white overflow-hidden">
 
-      {/* Background Glow */}
+      
       <div className="absolute top-10 left-10 w-96 h-96 bg-purple-600 blur-3xl opacity-20 rounded-full"></div>
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-blue-600 blur-3xl opacity-20 rounded-full"></div>
 
       <div className="relative z-10 max-w-5xl mx-auto">
 
-        {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 60 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -55,10 +54,10 @@ export default function Timeline() {
           </p>
         </motion.div>
 
-        {/* Timeline */}
+       
         <div className="relative mt-24">
 
-          {/* Vertical Line */}
+          
           <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-purple-500 to-blue-500 h-full rounded-full"></div>
 
           {timelineData.map((item, index) => (
@@ -72,14 +71,14 @@ export default function Timeline() {
                 index % 2 === 0 ? "justify-start" : "justify-end"
               }`}
             >
-              {/* Card */}
+            
               <motion.div
                 whileHover={{ scale: 1.05, rotateX: 6, rotateY: -6 }}
                 transition={{ type: "spring", stiffness: 200 }}
                 className="w-full md:w-5/12 p-8 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl"
                 style={{ transformStyle: "preserve-3d" }}
               >
-                {/* Year Badge */}
+                
                 <div className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 text-sm font-semibold mb-4">
                   {item.year}
                 </div>
@@ -93,7 +92,7 @@ export default function Timeline() {
                 </p>
               </motion.div>
 
-              {/* Center Dot */}
+              
               <span className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-black border-4 border-purple-500 rounded-full shadow-lg"></span>
             </motion.div>
           ))}

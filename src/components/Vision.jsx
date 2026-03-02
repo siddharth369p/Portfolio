@@ -94,7 +94,7 @@ export default function Vision() {
             className="relative p-12 rounded-3xl bg-white/5 backdrop-blur-2xl border border-white/10 shadow-[0_40px_100px_rgba(0,0,0,0.7)]"
             style={{ transformStyle: "preserve-3d", perspective: 2000 }}
           >
-            {/* Glow Border */}
+           
             <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 opacity-20 blur-xl -z-10"></div>
 
             <h3 className="text-2xl font-bold text-purple-400">

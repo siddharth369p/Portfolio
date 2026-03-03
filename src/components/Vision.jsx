@@ -28,13 +28,13 @@ export default function Vision() {
   return (
     <section className="relative py-40 px-6 bg-black text-white overflow-hidden">
 
-      {/* Deep Animated Gradient Background */}
+      
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(139,92,246,0.15),transparent_50%)]"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.15),transparent_50%)]"></div>
 
       <div className="relative z-10 max-w-6xl mx-auto">
 
-        {/* Badge */}
+       
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -45,7 +45,6 @@ export default function Vision() {
           OUR LONG-TERM VISION
         </motion.div>
 
-        {/* Heading */}
         <motion.h2
           initial={{ opacity: 0, y: 60 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -56,10 +55,10 @@ export default function Vision() {
           Redefining Global Education Access
         </motion.h2>
 
-        {/* Split Layout */}
+      
         <div className="grid md:grid-cols-2 gap-20 mt-20 items-center">
 
-          {/* Left Text */}
+        
           <motion.div
             initial={{ opacity: 0, x: -60 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -85,7 +84,7 @@ export default function Vision() {
             </p>
           </motion.div>
 
-          {/* 3D Interactive Glass Card */}
+        
           <motion.div
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
@@ -110,7 +109,7 @@ export default function Vision() {
           </motion.div>
         </div>
 
-        {/* 3D Stats Section */}
+      
         <div className="grid md:grid-cols-3 gap-12 mt-28 perspective-1000">
           {[
             { number: "8+", label: "Countries Active" },

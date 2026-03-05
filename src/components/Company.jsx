@@ -20,12 +20,12 @@ export default function Company() {
   return (
     <section className="relative py-32 px-6 bg-black text-white overflow-hidden">
       
-      {/* Background Gradient Glow */}
+   
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-purple-600/10 blur-3xl rounded-full"></div>
 
       <div className="relative max-w-6xl mx-auto">
 
-        {/* Company Intro */}
+      
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -43,7 +43,7 @@ export default function Company() {
           </p>
         </motion.div>
 
-        {/* Mission & Vision */}
+      
         <div className="grid md:grid-cols-2 gap-10 mt-20">
           <motion.div
             initial={{ opacity: 0, x: -40 }}
@@ -74,7 +74,7 @@ export default function Company() {
           </motion.div>
         </div>
 
-        {/* Core Values */}
+     
         <div className="mt-28">
           <h3 className="text-3xl md:text-4xl font-semibold text-center">
             Core Values
